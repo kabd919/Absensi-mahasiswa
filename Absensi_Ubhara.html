@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absensi UbharaJaya</title>
+    <link rel="stylesheet" href="Absensi.css" />
+    <link rel="icon" type="image/x-icon" href="Universitas Bhayangkara Jakarta Raya.png" />
+</head>
+
+<body>
+    <div class="konten-1">
+        <div class="grup-1">
+            <img src="Universitas Bhayangkara Jakarta Raya.png" alt="Logo Ubj" />
+            <h1>Absensi Kehadiran Mahasiswa</h1>
+            <p>Silahkan isi absensi</p>
+        </div>
+
+        <div class="konten-2">
+            <form action="absensi.php" method="POST">
+                <div class="form1">
+                    <label class="label-1" for="nama">Nama</label> <br />
+                    <input type="text" id="nama" name="nama" placeholder="Masukan username... " required /> <br />
+                </div>
+
+                <div class="form2">
+                    <label class="label-1" for="npm">NPM</label> <br />
+                    <input type="text" id="npm" name="npm" placeholder="Masukan NPM... " required /> <br />
+                </div>
+
+                <div class="form2">
+                    <label class="label-1" for="kelas">Kelas</label> <br />
+                    <input type="text" id="kelas" name="kelas" placeholder="Masukan Kelas... " required /> <br />
+                </div>
+
+                <div class="form2">
+                    <label class="label-1" for="date">Tanggal</label> <br />
+                    <input type="date" id="date" name="date" required /> <br />
+                </div>
+
+                <div class="form3">
+                    <label for="matkul">Mata Kuliah</label> <br />
+                    <select name="matkul" id="matkul" required>
+              <option value="none"></option>
+              <optgroup label="Informatika">
+                <option value="Statistika dan Probabilitas">Statistika dan Probabilitas</option>
+                <option value="Pengantar Organisasi Komputer">Pengantar Organisasi Komputer</option>
+                <option value="Bahasa Inggris">Bahasa Inggris</option>
+                <option value="Pemrograman Web">Pemrograman Web</option>
+                <option value="Teori bahasa dan Otomata">Teori Bahasa dan Otomata</option>
+                <option value="Analisa dan Desain berorientasi Objek">Analisa dan Desain berorientasi Objek</option>
+              </optgroup>
+
+              //for space
+              <option value="none"></option>
+
+              <optgroup label="Psikolog">
+                <option value="Psikolog Kognitif">Psikolog Kognitif</option>
+                <option value="Psikologi Sosial">Psikologi Sosial</option>
+                <option value="Psikologi Industri dan Organisasi">Psikologi Industri dan Organisasi</option>
+                <option value="Pengantar Pemeriksaan Psikologi dan Kode Etik">Pengantar Pemeriksaan Psikologi dan Kode Etik</option>
+                <option value="Psikologi Kognitif">Psikologi Kognitif</option>
+                <option value="Psikologi Kognitif">Psikologi Kepolisian, Personil dan Organisasi Kepolisian</option>
+              </optgroup>
+
+              //for space
+              <option value="none"></option>
+
+              <optgroup label="Hukum">
+                <option value="Hukum Tata Negara">Hukum Tata Negara</option>
+                <option value="Hukum Pidana Ekonomi">Hukum Pidana Ekonomi</option>
+                <option value="Hukum Hak Asasi Manusia">Hukum Hak Asasi Manusia</option>
+              </optgroup>
+
+              //for space
+              <option value="none"></option>
+
+              <optgroup label="Komunikasi">
+                <option value="Pengantar Ilmu Komunikasi">Pengantar Ilmu Komunikasi</option>
+                <option value="Teori Komunikasi">Teori Komunikasi</option>
+                <option value="Etika Komunikasi">Etika Komunikasi</option>
+                <option value="Komunikasi Antar Budaya">Komunikasi Antar Budaya</option>
+              </optgroup>
+            </select>
+                </div>
+                <br />
+
+                <div class="form3">
+                    <label for="jurusan"> Jurusan</label> <br />
+                    <select name="jurusan" id="jurusan" required>
+              //for space
+              <option value="none"></option>
+
+              <option value="Informatika">Informatika</option>
+              <option value="Komunikasi">Komunikasi</option>
+              <option value="Psiikolog">Psikolog</option>
+              <option value="Hukum">Hukum</option>
+            </select>
+                </div>
+
+                <div class="form5">
+                    <button onclick="alert('Berhasil Login')">Absen Sekarang</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    body {
+        font-family: Nunito;
+        background-image: url('https://bekasi.media/wp-content/uploads/2022/05/Universitas-Bhayangkara-Jakarta-Raya-Kampus-2-Bekasi-1024x554.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y: auto;
+    }
+    
+    .grup-1 {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .grup-1 img {
+        width: 100px;
+        align-items: center;
+    }
+    
+    .konten-1 {
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-left: 320px;
+        width: 600px;
+        height: 715px;
+        border: 2px solid black;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .konten-1 .login {
+        margin-top: 11px;
+    }
+    
+    .konten-1 .konten-2 {
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    
+    .konten-1 .konten-2 .label-1 {
+        font-weight: bolder;
+    }
+    
+    .konten-1 .konten-2 input {
+        width: 300px;
+    }
+    
+    .konten-1 .konten-2 .form2 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .konten-2 .form5 button {
+        margin-top: 32px;
+        width: 310px;
+        padding: 10px;
+        font-weight: bold;
+        background-color: rgb(0, 106, 0);
+        border: 0;
+        color: white;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    
+    .konten-2 .form5 button:hover {
+        border: 2px solid black;
+        box-shadow: 0.1px 0.1px black;
+    }
+    
+    .konten-2 .form3 select {
+        width: 308px;
+        padding: 2px;
+    }
+    
+    .konten-2 .form3 option {
+        overflow: scroll;
+    }
+    
+    .konten-2 .form3 label {
+        font-weight: bolder;
+    }
